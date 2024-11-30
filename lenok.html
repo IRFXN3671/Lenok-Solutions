@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenok Solutions</title>
+    <link rel="icon" type="image/png" href="Images/LogoWOB.png"/>
+    <link rel="stylesheet" href="lenok.css">
+    <script src="lenok.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    
+    
+    <link rel="stylesheet" href="client.css">
+    <link rel="stylesheet" href="productslideshow.css">
+    <script src="productslideshow.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a onclick="topFunction()" style="cursor: pointer;"><img class="logo" src="Images/LogoWOB.png" alt="Lenok-solution-Logo" ></a>
+            <span style="cursor: default; font-weight: bolder; font-size: 25px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">LENOK SOLUTIONS</span>
+        </div>
+
+        <button class="hamburger" aria-label="Menu" role="button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+        <nav class="nav-bar">
+            <ul>
+                <li style="cursor:pointer;"><a onclick="topFunction()" >Home</a></li>
+                <li><a href="#prod">Products</a></li>
+                <li><a href="#cust">Customers</a></li>
+                <!-- <li><a href="#">Careers</a></li> -->
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Lenok Solutions</h1>
+            <p>Best in class IT solutions to global aviation industry</p>
+            <a href="#prod"><button >Explore our Products</button></a>
+        </div>
+    </section>
+
+
+    <about-us>
+        <div class="about-us">
+            <div >  
+                <p style="font-weight: bold; color: rgb(136, 141, 157);">ABOUT US</p>
+                <h1 style="color: rgb(72, 80, 100);">Empowering the global aviation industry with innovative, reliable IT solutions and expert services.</h1>
+                <p class="about_us_para" style="line-height: 35px;">Lenok Solutions is a leading IT services company specializing in the Airline and Airport sectors. We provide innovative, scalable, and user-friendly solutions designed to automate complex operations within the aviation industry. Our services include Technology Consulting, Application Development & Maintenance, and Project Management, all tailored to meet the unique needs of our clients. By focusing on long-term relationships and aligning our solutions with clients' strategic goals, Lenok Solutions is a trusted partner in driving operational excellence and sustained success in the aviation industry.</p>
+            </div>
+            <div>
+                <img src="Images/about us.jpg" alt="office pic" class="about_us_pic">
+            </div>
+        </div>
+        
+    </about-us>
+    <div id="prod" style="margin-bottom: 15px;"></div>
+    <h1 style="text-align: center; font-size: 28px; margin-top: 50px; color: rgb(72, 80, 100);" >Our Products</h1>
+    <main class="main-content">
+        <section class="slideshow">
+          <div class="slideshow-inner">
+            <div class="slides">
+              <div class="slide is-active ">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Ground Handling System</div>
+                    <div class="text">
+                      <p>Lenok GHS is a web-based, end-to-end solution for managing ground handling processes, from contracts and scheduling to service recording and invoicing. Built on international standards like A-CDM and SWIM, it ensures accuracy, speed, and quality. Features include mobility solutions, turnaround management, and a Visual Intelligence Dashboard for optimized operations.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="Images/ghs_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Resource Management System</div>
+                    <div class="text">
+                      <p>Lenok RMS is a powerful, flexible, and user-friendly airport resource management solution that leverages advanced planning algorithms, what-if scenarios, and state-of-the-art operational modules for efficient resource optimization. It integrates cutting-edge technologies and aviation advancements like Airport-CDM to support planners in any situation effectively.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="Images/rms_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">FLIGHT INFORMATION DISPLAY SYSTEM</div>
+                    <div class="text">
+                      <p>A flight information display system (FIDS) provides real-time updates on flight schedules, gates, and delays via electronic displays in airport terminals. Lenok FIDS enhances this with dynamic control over display design, content, and location, along with a robust digital signage solution for scheduling commercial and informational content.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="Images/FIDS_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Airport Lounge Automation System</div>
+                    <div class="text">
+                      <p>Automated data capture via Boarding Pass Scanners streamlines check-in, supports various customer types, and enhances operations with features like service booking, meal planning, and waste calculation. Centralized monitoring, operational reports, and dashboards provide real-time insights into facility utilization and key performance metrics for informed decision-making.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="Images/ALAS_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Airport Operational Database System</div>
+                    <div class="text">
+                      <p>The Airport Operational Database System is a web-based, end-to-end solution for multi-station ground handling, covering contract management, flight scheduling, service recording, and invoicing while ensuring accuracy, speed, and quality. Built on global standards like A-CDM and SWIM, Lenok GHS offers mobility solutions, turnaround tracking, and a visual intelligence dashboard for efficient and modern operations.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="Images/AODS_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Airport OTP Management System</div>
+                    <div class="text">
+                      <p>The Airport OTP Management System provides real-time flight status monitoring via ACARS/SITA MVT messages, delay reason finalization, and a management interface for OTP monitoring committees. It also includes proactive turnaround process monitoring through a mobility app, helping improve OTP and reduce costs associated with flight delays.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="Images/AOTP_img.jpg" alt="" class="image" />
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Airport Analytics</div>
+                    <div class="text">
+                      <p>Airport Analytics, powered by Microsoft Power BI, offers a user-centric platform for quick overviews and in-depth analysis to support informed decision-making. Lenok GH Analytics provides extensive reports and dashboards, addressing key analytical needs and identifying areas for improvement in ground handling operations.</p>
+                    </div> 
+                    <a href="#" class="btn">
+                      <span class="btn-inner">Read More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="Images/AirportAnalytics_img.png" alt="" class="image" />
+                </div>
+              </div>
+
+
+            </div>
+            <div class="pagination">
+              <div class="item is-active"> 
+                <span class="icon">1</span>
+              </div>
+              <div class="item">
+                <span class="icon">2</span>
+              </div>
+              <div class="item">
+                <span class="icon">3</span>
+              </div>
+              <div class="item">
+                <span class="icon">4</span>
+              </div>
+              <div class="item">
+                <span class="icon">5</span>
+              </div>
+              <div class="item">
+                <span class="icon">6</span>
+              </div>
+              <div class="item">
+                <span class="icon">7</span>
+              </div>
+            </div>
+            <div class="arrows">
+              <div class="arrow prev">
+                <span class="svg svg-arrow-left">
+                  <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+                  <span class="alt sr-only"></span>
+                </span>
+              </div>
+              <div class="arrow next">
+                <span class="svg svg-arrow-right">
+                  <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+                  <span class="alt sr-only"></span>
+                </span>
+              </div>
+            </div>
+          </div> 
+        </section>
+      </main>
+
+
+    <customers id="cust">
+        <p style="font-family: sans-serif; font-size: 28px; text-align: center; color: rgb(72, 80, 100);">Our Clients</p>
+        <div class="slider" style="margin-bottom: 20px;">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="Images/Client/cust_1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_7.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_4.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_5.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_6.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="Images/Client/cust_7.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>
+    </customers>
+
+
+    <footer style="padding: 20px; background-color: #333; color: white; text-align: center;">
+        <p>&copy; <script type="text/javascript">document.write( new Date().getFullYear() );</script> Lenok Solutions. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.55DCXbXlKDgEBoZhKxpzLAHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;">
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.waOtRAV99hCXTCS_RvbK6QHaGp?w=1403&h=1258&rs=1&pid=ImgDetMain" alt="LinkedIn" style="width: 30px; height: 30px;">
+          </a>
+        </div>
+    </footer>
+</body>
+
+</html> 
